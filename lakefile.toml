@@ -4,6 +4,11 @@ defaultTargets = ["repl"]
 [[lean_lib]]
 name = "REPL"
 
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.14.0"
+
 [[lean_exe]]
 name = "repl"
 root = "REPL.Main"
